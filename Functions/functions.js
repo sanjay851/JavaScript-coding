@@ -50,9 +50,9 @@ greet(); // Hello
 //---------------------------------------------------------------------------------------
 //Q6."Print output
     var x = 21;
-    // a();//functions.js:53 Uncaught ReferenceError: a is not defined
-    // b();//functions.js:54 Uncaught ReferenceError: b is not defined
-    // console.log(a);//functions.js:55 Uncaught ReferenceError: a is not defined
+     a();//functions.js:53 Uncaught ReferenceError: a is not defined
+     b();//functions.js:54 Uncaught ReferenceError: b is not defined
+     console.log(a);//functions.js:55 Uncaught ReferenceError: a is not defined
     a = function() {
     x = 20;
     console.log(x);
