@@ -28,7 +28,7 @@ const PrototypeOne = {
         this.marks = marks;
     },
     displayDetails(){
-        console.log(`The name of the person is ${this.fName} ${this.lName} and the person  point is ${this.marks}`);
+        console.log(`The name of the person is ${this.fName} ${this.lName} and the person  marks is ${this.marks}`);
     },
 }
 
@@ -57,7 +57,7 @@ thirdDetails.display();
 
 // Q3.Add a method to calculate sum of all elements in Array in array's
 //  protype, use that method to calculate sum for multiple arrays
-MainPrototype.calculateTotalPoints =function(arrayOfPoints){
+  mainPrototype.calculateTotalPoints =function(arrayOfPoints){
     let sum = 0;
     for(let i in arrayOfPoints){
         sum+= arrayOfPoints[i];
@@ -67,11 +67,11 @@ MainPrototype.calculateTotalPoints =function(arrayOfPoints){
 
 let rohitPoints = [49, 59, 83, 39, 88];
 
-MainPrototype.calculateTotalPoints(rohitPoints);
+mainPrototype.calculateTotalPoints(rohitPoints);
 
 let kunalPoints = [95, 90, 88, 68, 45];
 
-MainPrototype.calculateTotalPoints(kunalPoints);
+mainPrototype.calculateTotalPoints(kunalPoints);
 
 // Q4.Write a JavaScript function to
 //  retrieve all the names of object's own and inherited properties.

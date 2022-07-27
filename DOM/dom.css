@@ -1,0 +1,93 @@
+#flex{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: burlywood; 
+     border: 2px solid black;
+}
+.box1{
+    width: 80px;
+    height: 80px;
+    background-color:greenyellow;
+    border: 2px solid salmon;
+}
+tr{
+    background-color: bisque;
+}
+.set{
+    background-color:lightgrey;
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+}
+.replace{
+    background-color: black;
+    color: cyan;
+}
+.clock {
+    position: absolute;
+    top: 1110px;
+    left: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 2px;
+    background-color: darkorange;
+}
+select{
+    width: 200px;
+    height: 30px;
+}
+#print{
+    width: 200px;
+    height: 30px;
+}
+#showbox{
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    border: 1px solid red;
+    background-color:black;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    margin-top: -50px;
+    margin-left: 500px;
+    text-align: center;
+    padding-top: 2px;
+    padding: 20px;
+}
+form{
+    background-color:bisque;
+    width: 500px;
+    padding: 25px;
+    font-family:monospace;
+}
+label{
+    color:#ff0000;
+    font-size: larger;
+}
+li {
+    list-style-type: none;
+    font-size: 16pt;
+  }
+  .mail {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    width: 550px;
+    background: teal;
+    border: 1px soild silver;
+  }
+  .mail h2 {
+    margin-left: 38px;
+    color: white;
+  }
+  input {
+    font-size: 15px;
+  }
+
+
+    
